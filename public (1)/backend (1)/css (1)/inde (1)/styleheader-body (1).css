@@ -1,0 +1,87 @@
+ul.header-body-ul {
+    display: flex;
+    float: right;
+    list-style: none;
+}
+
+ul.header-body-ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.position-center {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.position-center img {
+    margin-right: 5px;
+}
+
+.header-block ul {
+    display: none;
+    position: absolute;
+
+}
+
+.header-block ul li {
+    display: block;
+    padding: 15px 30px 15px 20px;
+    margin: 5px 0px 3px;
+    color: #070707;
+    border-bottom: 1px solid rgba(231, 231, 231, 0.1);
+}
+
+.header-block:hover ul {
+    display: block !important;
+    background-color: white;
+
+}
+
+.header-block input {
+    border: 1px solid #e7e7e7;
+    max-width: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.header-block button {
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 650px) {
+.header-body {
+    flex-direction: column;
+    /* Chuyển sang hiển thị theo hàng ngang khi màn hình lớn hơn */
+}
+.li-none{
+    display: none;
+}
+}
+.fixNav{
+    width: 100%;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 100000000;
+  }
+  .cart-body{
+      z-index:999;
+  }
+  .inner-header{
+      background-color: #ffffff
+  }
+  .inner-title,.beta-breadcrumb, .beta-breadcrumb a{
+      color: black
+  }
+  .main-menu>ul.l-inline> li> a{
+      color: #fff;
+      padding: 10px 35px
+  }
+  
+  
